@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(160, 164, 163);
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top:100px;
+    border-radius: 100px;
+}
+.fields{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.field{
+    display: flex;
+    align-items: center;
+    padding: 10px;  
+}
+.input{
+    height: 30px;
+    width: 250px;
+    border-radius: 30px;
+}
+.reg-btn{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+.reg-btn:hover{
+    background-color: #fff;
+    color: #000;
+
+}
